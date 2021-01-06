@@ -1,23 +1,19 @@
 def new_hash
-  hash = {}
+  {}
 end
 
 def my_hash
-  hash = {
-    :dude => "Devante"
-    :city => "Katy"
+  { :dude => "Devante"
   }
 end
 
 def pioneer
-  hash = {
-    :name => "Grace Hopper"
+  { :name => "Grace Hopper"
   }
 end
 
 
 def id_hash_generator(number)
-  number = {
-    :id => 2
+  { :id => number
   }
 end
